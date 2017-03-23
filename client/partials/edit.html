@@ -1,0 +1,8 @@
+<div ng-controller="editController">
+    <form>
+        <h1> Edit Friend </h1>
+        <input type="text" ng-model="currentFriend.name" value={{currentFriend.name}}><br>
+        <input type="text" ng-model="currentFriend.lang" value={{currentFriend.lang}}><br>
+        <input type="submit" value="Submit" ng-click="update()">
+    </form>
+</div>
